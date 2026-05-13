@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"          # ← Change this if your build outputs to dist/client
+  command = "vite build"
+  publish = "dist/client"
 
 [[redirects]]
   from = "/*"
